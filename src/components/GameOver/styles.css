@@ -1,0 +1,24 @@
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end h1 {
+  margin: 20rem auto 6rem;
+}
+
+.points-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+
+  margin-bottom: 6rem;
+}
+
+.points-container span {
+  color: var(--primary-color);
+  font-size: 8rem;
+}

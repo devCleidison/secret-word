@@ -1,0 +1,25 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 3rem;
+}
+
+.modal form input {
+  padding: 1.4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+  text-transform: uppercase;
+}
+
+.modal form button {
+  max-width: fit-content;
+}
