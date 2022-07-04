@@ -55,7 +55,6 @@ function App() {
 
     if (convertedLocalHighScores) {
       getOrderedHighScores(convertedLocalHighScores);
-      // setHighScores(convertedLocalHighScores);
     } else {
       return;
     }
@@ -132,7 +131,6 @@ function App() {
     const word =
       words[category][Math.floor(Math.random() * words[category].length)];
 
-    console.log(word);
     return { word, category };
   }
 
